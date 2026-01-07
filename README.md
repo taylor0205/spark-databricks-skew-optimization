@@ -1,4 +1,4 @@
-##Spark Data Skew Optimization on Databricks
+# Spark Data Skew Optimization on Databricks
 # 🔍 Overview
 
 This project demonstrates an end-to-end Apache Spark data processing pipeline on Databricks, with a strong focus on data skew detection, shuffle optimization, and performance tuning.
@@ -11,6 +11,7 @@ It simulates a real-world big data scenario using:
 This project is designed for big data beginners while covering production-level optimization techniques frequently discussed in Spark interviews.
 
 # 🏗 Architecture
+
 Open API (User Carts JSON)
           │
           ▼
@@ -72,7 +73,7 @@ Job Duration	~15 min	~4 min
 Shuffle Read	~8 GB	~2 GB
 Max Task Time	~600s	~120s
 
-#▶️ How to Run
+# ▶️ How to Run
 1. Upload products.csv to Databricks DBFS
 2. Create a Databricks cluster (Spark 3.x)
 3. Import notebooks from /notebooks
@@ -88,5 +89,7 @@ Max Task Time	~600s	~120s
 # 👤 Author
 
 Taylor Han
+
 Big Data / BI / AI-focused Data Engineer
+
 Spark · Databricks · Azure · Python
